@@ -1,0 +1,29 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+# Versi aplikasi, bisa kamu sesuaikan
+version: 0.1.0
+
+# Lingkungan SDK Flutter yang digunakan
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahan dependencies lain, jika perlu
+  # Misalnya: http, provider, dll.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Pengaturan flutter
+flutter:
+  uses-material-design: true
+
+  # Deklarasi untuk assets, pastikan path benar
+  assets:
+    - assets/Maula.jpg
